@@ -1,0 +1,270 @@
+@mixin theme {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+
+.na,.an,.nn,.aa {
+    @include theme;
+}
+
+.na,.an,.nn,.aa {
+    @media (max-width: 480px) {
+        display: block;
+    }
+ }
+
+
+
+@mixin q {
+    margin-left: 550px;
+    vertical-align: middle;
+    margin-top: -30px
+}
+
+.im {
+    @include q;
+}
+
+@mixin w {
+    width: 120px;
+    height: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  .h {
+    @include w;
+  }
+
+
+  @mixin e {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .content {
+    @include e;
+  }
+
+  @mixin r {
+    width: 16px;
+    padding-top: 30px;
+    margin-left: 50px;
+ }
+
+ .icon {
+    @include r;
+ }
+
+ @mixin t {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 184px;
+    margin-left: 40px;
+    margin-top: 40px;
+ }
+
+ .content h2,.summer h2 {
+    @include t;
+ }
+
+ @mixin u {
+    margin-left: 40px;
+ }
+
+ .ea {
+    @include u;
+    margin-bottom: 70px;
+    margin-top: 40px;
+ }
+
+ .text {
+    @include u;
+ }
+
+
+ @mixin i {
+    display:block;
+ }
+
+ @mixin m {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+ }
+
+ .summer {
+    @include m;
+ }
+
+ .summer {
+    @media (max-width: 768px) {
+        margin-left: 10px;
+    }
+ }
+
+ .xidi {
+    @include i;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+ }
+
+ .xidi {
+    @media (max-width: 768px) {
+        margin-left: 0px;
+    }
+ }
+
+
+ .lake {
+    @include i;
+    margin-top: 50px;
+    margin-left: 50px;
+ }
+
+ @media (max-width: 768px) {
+    .lake {
+      margin-left: 0px;
+    }
+  }
+
+ 
+ 
+ .id {
+    @include i;
+ }
+
+
+
+ .elephant {
+    @include i; 
+    margin-top: 150px;
+ }
+
+ 
+
+ .city {
+    @include i;
+    margin-top: 100px;
+ }
+
+ 
+
+ @mixin o {
+    display: inline-block;
+ }
+
+ .first {
+    @include o;
+ }
+
+ .second {
+    @include o;
+    margin-left: 30px;
+}
+ 
+@mixin p {
+position: absolute;
+margin-top: -250px;
+color: white;
+font-size: 20px;
+font-weight: 700;
+margin-left: 325px;
+}
+
+
+.first h2 {
+@include p;
+}
+
+@mixin a {
+width: 1440px;
+height: 150px;
+background-color: #243043;
+padding: 50px;
+margin-top: 50px;
+}
+
+.search {
+@include a;
+}
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #818687;
+
+.f,.q,.w,.r {
+font:$font-stack;
+color:$primary-color;
+width: 33px;
+font-weight: 700;
+display: block;
+margin-top: 30px;
+}
+
+@mixin s {
+display: inline-block;
+}
+
+.ft {
+@include s;
+}
+
+@mixin d {
+display: inline-block;
+margin-left: 130px;
+}
+
+.fa,.fs {
+@include d;
+}
+
+@mixin f {
+margin-top: -150px;
+margin-left: 500px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+color: #FFFFFF;
+}
+
+.tx {
+@include f;
+}
+
+@mixin g {
+margin-left: 1100px;
+margin-top: -20px;
+}
+
+.geolab {
+@include g;
+}
+
+.geolab {
+    @media (max-width: 768px) {
+        margin-left:550px;
+        margin-top: 0px;
+    }
+ }
+
+.b {
+    @media (max-width: 768px) {
+        display: none;
+    }
+ }
+

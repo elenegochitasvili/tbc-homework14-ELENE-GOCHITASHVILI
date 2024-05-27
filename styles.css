@@ -1,0 +1,187 @@
+.na, .an, .nn, .aa {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+@media (max-width: 480px) {
+  .na, .an, .nn, .aa {
+    display: block;
+  }
+}
+
+.im {
+  margin-left: 550px;
+  vertical-align: middle;
+  margin-top: -30px;
+}
+
+.h {
+  width: 120px;
+  height: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.content {
+  width: 360px;
+  height: 360px;
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  width: 16px;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+.content h2, .summer h2 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  width: 184px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.ea {
+  margin-left: 40px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.summer {
+  width: 360px;
+  height: 360px;
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .summer {
+    margin-left: 10px;
+  }
+}
+
+.xidi {
+  display: block;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .xidi {
+    margin-left: 0px;
+  }
+}
+
+.lake {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .lake {
+    margin-left: 0px;
+  }
+}
+.id {
+  display: block;
+}
+
+.elephant {
+  display: block;
+  margin-top: 150px;
+}
+
+.city {
+  display: block;
+  margin-top: 100px;
+}
+
+.first {
+  display: inline-block;
+}
+
+.second {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.first h2 {
+  position: absolute;
+  margin-top: -250px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 325px;
+}
+
+.search {
+  width: 1440px;
+  height: 150px;
+  background-color: #243043;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.f, .q, .w, .r {
+  font: Helvetica, sans-serif;
+  color: #818687;
+  width: 33px;
+  font-weight: 700;
+  display: block;
+  margin-top: 30px;
+}
+
+.ft {
+  display: inline-block;
+}
+
+.fa, .fs {
+  display: inline-block;
+  margin-left: 130px;
+}
+
+.tx {
+  margin-top: -150px;
+  margin-left: 500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.geolab {
+  margin-left: 1100px;
+  margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+  .geolab {
+    margin-left: 550px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .b {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
